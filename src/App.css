@@ -11,4 +11,7 @@
   padding-left: 200px;
 }
 
-
+hr {
+  width: 500px;
+  margin-left: 0;
+}
