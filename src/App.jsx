@@ -3,6 +3,7 @@ import Copy from "./components/Copy";
 import Focus from "./components/Focus";
 import MediaPlayer from "./components/MediaPlayer";
 import ScrollAnimation from "./components/ScrollAnimation";
+import RenderApp from "./components/RenderApp";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <MediaPlayer />
         <hr />
         <ScrollAnimation />
+        <hr />
+        <RenderApp />
         <hr />
       </header>
     </div>
