@@ -1,6 +1,7 @@
 import "./App.css";
 import Copy from "./components/Copy";
 import Focus from "./components/Focus";
+import MediaPlayer from "./components/MediaPlayer";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         <Focus />
         <hr />
         <Copy />
+        <hr />
+        <MediaPlayer />
         <hr />
       </header>
     </div>
