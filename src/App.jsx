@@ -2,6 +2,7 @@ import "./App.css";
 import Copy from "./components/Copy";
 import Focus from "./components/Focus";
 import MediaPlayer from "./components/MediaPlayer";
+import ScrollAnimation from "./components/ScrollAnimation";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Copy />
         <hr />
         <MediaPlayer />
+        <hr />
+        <ScrollAnimation />
         <hr />
       </header>
     </div>
